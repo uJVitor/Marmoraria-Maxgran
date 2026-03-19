@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marmoraria Max Gran</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #111;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    background: #222;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+.banner {
+    background: url('https://source.unsplash.com/1600x600/?granite,kitchen') no-repeat center;
+    background-size: cover;
+    height: 400px;
+}
+
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.grid img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Marmoraria Max Gran</h1>
+    <p>Qualidade em mármores e granitos</p>
+</header>
+
+<nav>
+    <a href="#inicio">Início</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<div class="banner" id="inicio"></div>
+
+<div class="section">
+    <h2>Trabalhos Realizados</h2>
+    <div class="grid">
+        <img src="https://source.unsplash.com/400x300/?granite,sink">
+        <img src="https://source.unsplash.com/400x300/?marble,kitchen">
+        <img src="https://source.unsplash.com/400x300/?granite,stairs">
+        <img src="https://source.unsplash.com/400x300/?marble,bathroom">
+    </div>
+</div>
+
+<div class="section" id="servicos">
+    <h2>Nossos Serviços</h2>
+    <p>Pias, bancadas, escadas, lavatórios, balcões, revestimentos e projetos sob medida em granito, mármore e quartzo.</p>
+</div>
+
+<div class="section" id="contato">
+    <h2>Contato</h2>
+    <p><strong>Endereço:</strong> CEP 86030-495, nº 205</p>
+    <p><strong>WhatsApp:</strong> (coloque seu número aqui)</p>
+</div>
+
+<div class="footer">
+    <p>© 2026 Marmoraria Max Gran - Todos os direitos reservados</p>
+</div>
+
+</body>
+</html>
